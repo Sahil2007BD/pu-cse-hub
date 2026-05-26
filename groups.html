@@ -2,8 +2,8 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <title>Groups • PU CSE Hub</title>
 
@@ -13,147 +13,97 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 
 <body>
 
-  <!-- HEADER -->
+<header>
+  <h1>Batch Links</h1>
+  <p>All groups, courses and official links in one place.</p>
+</header>
 
-  <header>
+<nav>
+  <a href="index.html">Home</a>
+  <a href="routine.html">Routine</a>
+  <a href="groups.html">Groups</a>
+  <a href="notices.html">Notices</a>
 
-    <h1>Batch Links</h1>
+  <button id="themeToggle">🌙</button>
+</nav>
 
-    <p>
-      All important groups, communities, and course links
-      in one place.
-    </p>
+<main>
 
-  </header>
+  <!-- OFFICIAL -->
+  <section class="section-title">
+    <h2>🏫 Official Links</h2>
+  </section>
 
-  <!-- NAVBAR -->
+  <div class="group-grid">
 
-  <nav>
-
-    <a href="index.html">Home</a>
-
-    <a href="routine.html">Routine</a>
-
-    <a href="groups.html">Groups</a>
-
-    <a href="notices.html">Notices</a>
-
-  </nav>
-
-  <!-- MAIN -->
-
-  <main>
-
-    <!-- OFFICIAL LINKS -->
-
-    <section class="section-title">
-
-      <h2>🏫 Official Links</h2>
-
-    </section>
-
-    <div class="group-grid">
-
-      <a href="https://www.facebook.com/Primevarsity" target="_blank" class="group-box">
-
-        <div>
-
-          <h3>Prime University Facebook</h3>
-
-          <p>
-            Official university Facebook page.
-          </p>
-
-        </div>
-
-        <span>↗</span>
-
-      </a>
-
-    </div>
-
-
-    <!-- MAIN BATCH -->
-
-    <section class="section-title">
-
-      <h2>👥 Main Batch Groups</h2>
-
-    </section>
-
-    <div class="group-grid">
-
-      <a href="https://m.me/j/AbYahzuSU_QKPUKK/?send_source=gc:send_in_messenger_c" target="_blank" class="group-box">
-
-        <div>
-
-          <h3>Main Batch WhatsApp</h3>
-
-          <p>
-            Main communication group for all students.
-          </p>
-
-        </div>
-
-        <span>↗</span>
-
-      </a>
-
-    </div>
-
-
-    <!-- COURSE GROUPS -->
-
-<!-- COURSE GROUPS -->
-
-<section class="section-title">
-
-  <h2>📚 Course Groups</h2>
-
-</section>
-
-<div class="course-wrapper">
-
-
-  <!-- MENTOR GROUP -->
-
-  <div class="course-card">
-
-    <h3>Mentor Group</h3>
-
-    <div class="course-links">
-
-      <a
-        href="https://l.messenger.com/l.php?u=https%3A%2F%2Fchat.whatsapp.com%2FDv8IPsqSgpm0a05jQ1X2nv%3Fmode%3Dgi_t&h=AUD-jkmqCAk2FlsSpzf8WeIiMOzUG0a7Ke-OOc06dZqZPaOKNhesdrdizV438bxsiglwBkfRHeacHuZrigP-W95OdifrEu3FyX6c5Ri0CugKykaqjGGLMOlNfejazW57j2ZcfQ"
-        target="_blank"
-        class="mini-link whatsapp"
-      >
-        WhatsApp Group
-      </a>
-
-    </div>
+    <a href="https://www.facebook.com/Primevarsity" target="_blank" class="group-box">
+      <div>
+        <h3>Prime University Facebook</h3>
+        <p>Official university page</p>
+      </div>
+      <span>↗</span>
+    </a>
 
   </div>
 
 
-  <!-- MAT 1107 -->
+  <!-- BATCH -->
+  <section class="section-title">
+    <h2>👥 Main Batch</h2>
+  </section>
 
+  <div class="group-grid">
+
+    <a href="https://m.me/j/AbYahzuSU_QKPUKK/?send_source=gc:send_in_messenger_c"
+       target="_blank" class="group-box">
+
+      <div>
+        <h3>Main Batch Group</h3>
+        <p>All students communication</p>
+      </div>
+
+      <span>↗</span>
+    </a>
+
+  </div>
+
+
+  <!-- SEARCH -->
+<!-- COURSE GROUPS -->
+
+<section class="section-title">
+  <h2>📚 Course Groups</h2>
+</section>
+
+<input
+  type="text"
+  id="searchInput"
+  placeholder="Search course or group..."
+/>
+
+<div class="course-wrapper">
+
+
+  <!-- MAT 1107 -->
   <div class="course-card">
 
     <h3>MAT 1107</h3>
 
     <div class="course-links">
 
-      <a
-        href="https://l.messenger.com/l.php?u=https%3A%2F%2Fm.me%2Fj%2FAba6Xfm7dJ-hTQYO%2F%3Fsend_source%3Dgc%253Acopy_invite_link_t&h=AUD-jkmqCAk2FlsSpzf8WeIiMOzUG0a7Ke-OOc06dZqZPaOKNhesdrdizV438bxsiglwBkfRHeacHuZrigP-W95OdifrEu3FyX6c5Ri0CugKykaqjGGLMOlNfejazW57j2ZcfQ"
-        target="_blank"
-        class="mini-link messenger"
-      >
+      <a href="https://l.messenger.com/l.php?u=https%3A%2F%2Fm.me%2Fj%2FAba6Xfm7dJ-hTQYO%2F%3Fsend_source%3Dgc%253Acopy_invite_link_t&h=AUD-jkmqCAk2FlsSpzf8WeIiMOzUG0a7Ke-OOc06dZqZPaOKNhesdrdizV438bxsiglwBkfRHeacHuZrigP-W95OdifrEu3FyX6c5Ri0CugKykaqjGGLMOlNfejazW57j2ZcfQ"
+         target="_blank"
+         class="mini-link messenger">
+
+        <i class="fa-brands fa-facebook-messenger"></i>
         Messenger Group
+
       </a>
 
     </div>
@@ -161,23 +111,41 @@
   </div>
 
 
+  <!-- PROGRAMMING CLUB -->
+  <div class="course-card">
 
+    <h3>Programming Club</h3>
+
+    <div class="course-links">
+
+      <a href="https://l.messenger.com/l.php?u=https%3A%2F%2Fm.me%2Fj%2FAbZoYkCqjZhPh1df%2F%3Fsend_source%3Dgc%253Acopy_invite_link_c&h=AUD-jkmqCAk2FlsSpzf8WeIiMOzUG0a7Ke-OOc06dZqZPaOKNhesdrdizV438bxsiglwBkfRHeacHuZrigP-W95OdifrEu3FyX6c5Ri0CugKykaqjGGLMOlNfejazW57j2ZcfQ"
+         target="_blank"
+         class="mini-link messenger">
+
+        <i class="fa-brands fa-facebook-messenger"></i>
+        Messenger Group
+
+      </a>
+
+    </div>
+
+  </div>
 
 
   <!-- CSE 1110 -->
-
   <div class="course-card">
 
     <h3>CSE 1110</h3>
 
     <div class="course-links">
 
-      <a
-        href="https://l.messenger.com/l.php?u=https%3A%2F%2Fm.me%2Fj%2FAbb3zCbN3A7aInEV%2F%3Fsend_source%3Dgc%253Acopy_invite_link_c&h=AUD-jkmqCAk2FlsSpzf8WeIiMOzUG0a7Ke-OOc06dZqZPaOKNhesdrdizV438bxsiglwBkfRHeacHuZrigP-W95OdifrEu3FyX6c5Ri0CugKykaqjGGLMOlNfejazW57j2ZcfQ"
-        target="_blank"
-        class="mini-link messenger"
-      >
+      <a href="https://l.messenger.com/l.php?u=https%3A%2F%2Fm.me%2Fj%2FAbb3zCbN3A7aInEV%2F%3Fsend_source%3Dgc%253Acopy_invite_link_c&h=AUD-jkmqCAk2FlsSpzf8WeIiMOzUG0a7Ke-OOc06dZqZPaOKNhesdrdizV438bxsiglwBkfRHeacHuZrigP-W95OdifrEu3FyX6c5Ri0CugKykaqjGGLMOlNfejazW57j2ZcfQ"
+         target="_blank"
+         class="mini-link messenger">
+
+        <i class="fa-brands fa-facebook-messenger"></i>
         Messenger Group
+
       </a>
 
     </div>
@@ -185,23 +153,41 @@
   </div>
 
 
+  <!-- MENTOR GROUP -->
+  <div class="course-card">
 
+    <h3>Mentor Group</h3>
+
+    <div class="course-links">
+
+      <a href="https://l.messenger.com/l.php?u=https%3A%2F%2Fchat.whatsapp.com%2FDv8IPsqSgpm0a05jQ1X2nv%3Fmode%3Dgi_t&h=AUD-jkmqCAk2FlsSpzf8WeIiMOzUG0a7Ke-OOc06dZqZPaOKNhesdrdizV438bxsiglwBkfRHeacHuZrigP-W95OdifrEu3FyX6c5Ri0CugKykaqjGGLMOlNfejazW57j2ZcfQ"
+         target="_blank"
+         class="mini-link whatsapp">
+
+        <i class="fa-brands fa-whatsapp"></i>
+        WhatsApp Group
+
+      </a>
+
+    </div>
+
+  </div>
 
 
   <!-- ELC 1 -->
-
   <div class="course-card">
 
     <h3>ELC - 1</h3>
 
     <div class="course-links">
 
-      <a
-        href="https://l.messenger.com/l.php?u=https%3A%2F%2Fchat.whatsapp.com%2FBat8H4GsBpTK8fdyv3j60v%3Fmode%3Dgi_t&h=AUD-jkmqCAk2FlsSpzf8WeIiMOzUG0a7Ke-OOc06dZqZPaOKNhesdrdizV438bxsiglwBkfRHeacHuZrigP-W95OdifrEu3FyX6c5Ri0CugKykaqjGGLMOlNfejazW57j2ZcfQ"
-        target="_blank"
-        class="mini-link whatsapp"
-      >
+      <a href="https://chat.whatsapp.com/Bat8H4GsBpTK8fdyv3j60v?mode=gi_t"
+         target="_blank"
+         class="mini-link whatsapp">
+
+        <i class="fa-brands fa-whatsapp"></i>
         WhatsApp Group
+
       </a>
 
     </div>
@@ -210,19 +196,19 @@
 
 
   <!-- PHY 1105 -->
-
   <div class="course-card">
 
     <h3>PHY 1105</h3>
 
     <div class="course-links">
 
-      <a
-        href="https://l.messenger.com/l.php?u=https%3A%2F%2Fchat.whatsapp.com%2FCPZVYDe0cDn12saMzAwo2V%3Fmode%3Dgi_t&h=AUD-jkmqCAk2FlsSpzf8WeIiMOzUG0a7Ke-OOc06dZqZPaOKNhesdrdizV438bxsiglwBkfRHeacHuZrigP-W95OdifrEu3FyX6c5Ri0CugKykaqjGGLMOlNfejazW57j2ZcfQ"
-        target="_blank"
-        class="mini-link whatsapp"
-      >
+      <a href="https://chat.whatsapp.com/CPZVYDe0cDn12saMzAwo2V?mode=gi_t"
+         target="_blank"
+         class="mini-link whatsapp">
+
+        <i class="fa-brands fa-whatsapp"></i>
         WhatsApp Group
+
       </a>
 
     </div>
@@ -231,106 +217,43 @@
 
 
   <!-- ENG 1103 -->
-
   <div class="course-card">
 
     <h3>ENG 1103</h3>
 
     <div class="course-links">
 
-      <a
-        href="https://l.messenger.com/l.php?u=https%3A%2F%2Fchat.whatsapp.com%2FI5pTT2kHzbDJO7MBjiT1E2%3Fmode%3Dgi_t&h=AUD-jkmqCAk2FlsSpzf8WeIiMOzUG0a7Ke-OOc06dZqZPaOKNhesdrdizV438bxsiglwBkfRHeacHuZrigP-W95OdifrEu3FyX6c5Ri0CugKykaqjGGLMOlNfejazW57j2ZcfQ"
-        target="_blank"
-        class="mini-link whatsapp"
-      >
+      <a href="https://chat.whatsapp.com/I5pTT2kHzbDJO7MBjiT1E2?mode=gi_t"
+         target="_blank"
+         class="mini-link whatsapp">
+
+        <i class="fa-brands fa-whatsapp"></i>
         WhatsApp Group
+
       </a>
 
     </div>
 
   </div>
 
-  <!-- PROGRAMMING CLUB -->
+</div>
 
-  <div class="course-card">
-
-    <h3>Programming Club</h3>
-
-    <div class="course-links">
-
-      <a
-        href="https://l.messenger.com/l.php?u=https%3A%2F%2Fm.me%2Fj%2FAbZoYkCqjZhPh1df%2F%3Fsend_source%3Dgc%253Acopy_invite_link_c&h=AUD-jkmqCAk2FlsSpzf8WeIiMOzUG0a7Ke-OOc06dZqZPaOKNhesdrdizV438bxsiglwBkfRHeacHuZrigP-W95OdifrEu3FyX6c5Ri0CugKykaqjGGLMOlNfejazW57j2ZcfQ"
-        target="_blank"
-        class="mini-link messenger"
-      >
-        Messenger Group
-      </a>
-
-    </div>
-
-  </div>
+</main>
 
 
+<!-- FLOATING ACTION BUTTONS -->
+<div class="fab-container">
+
+  <a href="routine.html" class="fab-item" title="Routine">📅</a>
+
+  <a href="notices.html" class="fab-item" title="Notices">📢</a>
+
+  <a href="groups.html" class="fab-item" title="Groups">👥</a>
+
+</div>
 
 
-  </main>
+<script src="assets/js/script.js"></script>
 
 </body>
-                        <!-- SAMPLE COURSE CARD 
-
-                        <div class="course-card">
-
-                        <h3>PHY 1103</h3>
-
-                        <div class="course-links">
-
-                            WHATSAPP 
-                            <a
-                            href="https://chat.whatsapp.com/example"
-                            target="_blank"
-                            class="mini-link whatsapp"
-                            >
-                            WhatsApp Group
-                            </a>
-
-
-                             MESSENGER
-
-                            <a
-                            href="https://m.me/example"
-                            target="_blank"
-                            class="mini-link messenger"
-                            >
-                            Messenger Group
-                            </a> 
-
-                        </div>
-
-                        </div>
-
-
-
-                        -->
-
-
-
-
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
