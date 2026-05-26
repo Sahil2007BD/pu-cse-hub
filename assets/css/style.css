@@ -276,6 +276,17 @@ main {
   flex-wrap: wrap;
   gap: 14px;
 }
+.classroom {
+  background: #fbbc05;
+  color: #111;
+  font-weight: 700;
+}
+
+.classroom:hover {
+  background: #e2a800;
+}
+
+
 
 .mini-link {
   text-decoration: none;
